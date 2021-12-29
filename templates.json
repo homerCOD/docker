@@ -45,7 +45,7 @@
 				"bind": "/share/Container/adguardhome-sync/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -116,7 +116,7 @@
 				"bind": "/share/Container/airsonic/media"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -159,7 +159,7 @@
 				"bind": "/share/Container/apprise-api/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -199,7 +199,7 @@
 				"bind": "/share/Container/audacity/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -227,7 +227,7 @@
 				"bind": "/share/Container/babybuddy/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -278,7 +278,7 @@
 				"bind": "/share/Container/bazarr/tv"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -329,7 +329,7 @@
 				"bind": "/share/Container/beets/downloads"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -378,7 +378,7 @@
 				"bind": "/share/Container/boinc/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -439,7 +439,7 @@
 				"bind": "/share/Container/booksonic/othermedia"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -500,7 +500,7 @@
 				"bind": "/share/Container/booksonic-air/othermedia"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -567,7 +567,7 @@
 				"bind": "/share/Container/bookstack/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -623,7 +623,7 @@
 				"bind": "/share/Container/calibre/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -682,7 +682,7 @@
 				"bind": "/share/Container/calibre-web/books"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -730,7 +730,7 @@
 				"bind": "/share/Container/chevereto/data"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -799,7 +799,7 @@
 				"bind": "/var/run/docker.sock"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -878,7 +878,7 @@
 				"bind": "/share/Container/code-server/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -925,7 +925,7 @@
 				"bind": "/share/Container/cops/books"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -976,7 +976,7 @@
 				"bind": "/share/Container/couchpotato/movies"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1021,7 +1021,7 @@
 				"bind": "/share/Container/daapd/music"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1064,7 +1064,7 @@
 				"bind": "/share/Container/darktable/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1111,7 +1111,7 @@
 				"bind": "/share/Container/davos/download"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1151,7 +1151,7 @@
 				"bind": "/share/Container/ddclient/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1206,7 +1206,7 @@
 				"bind": "/share/Container/deluge/downloads"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1250,7 +1250,7 @@
 				"bind": "/share/Container/digikam/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1293,7 +1293,7 @@
 				"bind": "/share/Container/dillinger/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1364,7 +1364,7 @@
 				"bind": "/share/Container/diskover/data"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1404,7 +1404,7 @@
 				"bind": "/share/Container/docker-compose/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1448,7 +1448,7 @@
 				"bind": "/share/Container/dokuwiki/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1499,7 +1499,7 @@
 				"bind": "/share/Container/domoticz/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1546,7 +1546,7 @@
 				"bind": "/share/Container/doublecommander/data"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1601,7 +1601,7 @@
 				"bind": "/share/Container/duckdns/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1655,7 +1655,7 @@
 				"bind": "/share/Container/duplicati/source"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1711,7 +1711,7 @@
 				"bind": "/opt/vc/lib"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1751,7 +1751,7 @@
 				"bind": "/share/Container/embystat/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1799,7 +1799,7 @@
 				"bind": "/share/Container/emulatorjs/data"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1869,7 +1869,7 @@
 				"bind": "/share/Container/endlessh/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1909,7 +1909,7 @@
 				"bind": "/share/Container/ffmpeg/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1949,7 +1949,7 @@
 				"bind": "/share/Container/filezilla/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -1989,7 +1989,7 @@
 				"bind": "/share/Container/firefox/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2053,7 +2053,7 @@
 				"bind": "/share/Container/fleet/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2094,7 +2094,7 @@
 				"bind": "/share/Container/foldingathome/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2134,7 +2134,7 @@
 				"bind": "/share/Container/freshrss/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2177,7 +2177,7 @@
 				"bind": "/share/Container/grav/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2217,7 +2217,7 @@
 				"bind": "/share/Container/grocy/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2231,7 +2231,7 @@
 			"ports": [
 				"4822:4822/tcp"
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2278,7 +2278,7 @@
 				"bind": "/share/Container/habridge/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2326,7 +2326,7 @@
 				"bind": "/share/Container/headphones/music"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2444,7 +2444,7 @@
 				"bind": "/share/Container/healthchecks/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2535,7 +2535,7 @@
 				"bind": "/share/Container/hedgedoc/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2576,7 +2576,7 @@
 				"bind": "/share/Container/heimdall/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2620,8 +2620,58 @@
 				"bind": "/share/Container/homeassistant/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
+		{
+			"type": 1,
+			"title": "Homer",
+			"name": "homer",
+			"description": "A dead simple static HOMepage for your servER to keep your s ervices on hand, from a simple yaml configuration file.",
+			"note": "This container requires a yml file within the config volume. See the documentation here https://github.com/bastienwirtz/homer",
+			"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/homer.png",
+			"image": "b4bz/homer:latest",
+			"categories": [
+				"Other",
+				"Tools"
+			],
+			"env": [
+				{
+					"name": "PUID",
+					"label": "PUID",
+					"default": "1002",
+					"description": "for GroupID"
+				},
+				{
+					"name": "PGID",
+					"label": "PGID",
+					"default": "100",
+					"description": "for UserID"
+				},
+				{
+					"name": "TZ",
+					"label": "TZ",
+					"default": "Europe/Belgrade",
+					"description": "Specify a timezone to use for example Europe/Belgrade"
+				}
+			],
+			"platform": "linux",
+			"restart_policy": "always",
+			"ports": [
+				"8902:8080/tcp"
+			],
+			"volumes": [
+			{
+				"container": "/www/assets",
+				"bind": "/share/Container/Homer/Assets"
+			},
+			{
+				"container": "/www/config.yml",
+				"bind": "/share/Container/Homer/Config"
+      }
+    ]
+  },
+		
+		
 		{
 			"type": 1,
 			"title": "Htpcmanager",
@@ -2660,7 +2710,7 @@
 				"bind": "/share/Container/htpcmanager/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2707,7 +2757,7 @@
 				"bind": "/share/Container/ipfs/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2763,7 +2813,7 @@
 				"bind": "/share/Container/jackett/downloads"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2820,7 +2870,7 @@
 				"bind": "/share/Container/jellyfin/data/movies"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2860,7 +2910,7 @@
 				"bind": "/share/Container/jenkins-builder/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2912,7 +2962,7 @@
 				"bind": "/share/Container/kanzi/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -2966,7 +3016,7 @@
 				"bind": "/share/Container/lazylibrarian/books"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3007,7 +3057,7 @@
 				"8888:8888/tcp",
 				"9000:9000/tcp"
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3050,7 +3100,7 @@
 				"bind": "/share/Container/libreoffice/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3138,7 +3188,7 @@
 				"bind": "/share/Container/librespeed/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3186,7 +3236,7 @@
 				"bind": "/share/Container/lidarr/downloads"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3226,7 +3276,7 @@
 				"bind": "/share/Container/limnoria/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3294,7 +3344,7 @@
 				"bind": "/share/Container/lychee/pictures"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3364,7 +3414,7 @@
 				"bind": "/share/Container/mariadb/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3412,7 +3462,7 @@
 				"bind": "/share/Container/medusa/tv"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3458,7 +3508,7 @@
 				"bind": "/share/Container/minetest/config/.minetest"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3506,7 +3556,7 @@
 				"bind": "/share/Container/minisatip/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3550,7 +3600,7 @@
 				"bind": "/share/Container/mstream/music"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3590,7 +3640,7 @@
 				"bind": "/share/Container/muximux/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3632,7 +3682,7 @@
 				"bind": "/share/Container/mylar3/downloads"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3672,7 +3722,7 @@
 				"bind": "/share/Container/mysql-workbench/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3756,7 +3806,7 @@
 				"bind": "/share/Container/nano/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3770,7 +3820,7 @@
 			"ports": [
 				"80:80/tcp"
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3828,7 +3878,7 @@
 				"bind": "/share/Container/netbootxyz/assets"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -3988,7 +4038,7 @@
 				"bind": "/share/Container/netbox/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4032,7 +4082,7 @@
 				"bind": "/share/Container/nextcloud/data"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4073,7 +4123,7 @@
 				"bind": "/share/Container/nginx/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4113,7 +4163,7 @@
 				"bind": "/share/Container/ngircd/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4165,7 +4215,7 @@
 				"bind": "/share/Container/nntp2nntp/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4215,7 +4265,7 @@
 				"bind": "/share/Container/nzbget/downloads"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4259,7 +4309,7 @@
 				"bind": "/share/Container/nzbhydra2/downloads"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4305,7 +4355,7 @@
 				"bind": "/share/Container/ombi/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4399,7 +4449,7 @@
 				"bind": "/share/Container/openssh-server/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4463,7 +4513,7 @@
 				"bind": "/share/Container/openvscode-server/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4503,7 +4553,7 @@
 				"bind": "/share/Container/oscam/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4546,7 +4596,7 @@
 				"bind": "/share/Container/overseerr/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4596,7 +4646,7 @@
 				"bind": "/share/Container/paperless-ng/data"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4646,7 +4696,7 @@
 				"bind": "/share/Container/papermerge/data"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4694,7 +4744,7 @@
 				"bind": "/share/Container/photoshow/Thumbs"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4749,7 +4799,7 @@
 				"bind": "/share/Container/phpmyadmin/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4789,7 +4839,7 @@
 				"bind": "/share/Container/pidgin/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4833,7 +4883,7 @@
 				"bind": "/share/Container/piwigo/gallery"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4892,7 +4942,7 @@
 				"bind": "/share/Container/pixapop/photos"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4944,7 +4994,7 @@
 				"bind": "/share/Container/plex/movies"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -4994,7 +5044,7 @@
 				"bind": "/share/Container/projectsend/data"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5040,7 +5090,7 @@
 				"bind": "/share/Container/pwndrop/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5093,7 +5143,7 @@
 				"bind": "/share/Container/pydio-cells/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5138,7 +5188,7 @@
 				"bind": "/share/Container/pyload/downloads"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5200,7 +5250,7 @@
 				"bind": "/share/Container/pylon/code"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5252,7 +5302,7 @@
 				"bind": "/share/Container/qbittorrent/downloads"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5299,7 +5349,7 @@
 				"bind": "/share/Container/quassel-core/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5351,7 +5401,7 @@
 				"bind": "/share/Container/quassel-web/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5399,7 +5449,7 @@
 				"bind": "/share/Container/radarr/downloads"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5439,7 +5489,7 @@
 				"bind": "/share/Container/raneto/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5484,7 +5534,7 @@
 				"bind": "/share/Container/rdesktop/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5524,7 +5574,7 @@
 				"bind": "/share/Container/remmina/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5567,7 +5617,7 @@
 				"bind": "/share/Container/requestrr/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5616,7 +5666,7 @@
 				"bind": "/share/Container/resilio-sync/sync"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5664,7 +5714,7 @@
 				"bind": "/share/Container/rsnapshot/data"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5713,7 +5763,7 @@
 				"bind": "/share/Container/sabnzbd/incomplete-downloads"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5775,7 +5825,7 @@
 				"bind": "/run/udev:ro"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5823,7 +5873,7 @@
 				"bind": "/share/Container/sickchill/tv"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5865,7 +5915,7 @@
 				"bind": "/share/Container/sickgear/downloads"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5909,7 +5959,7 @@
 				"bind": "/share/Container/smokeping/data"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -5950,7 +6000,7 @@
 				"bind": "/share/Container/snapdrop/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6020,7 +6070,7 @@
 				"bind": "/share/Container/snipe-it/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6071,7 +6121,7 @@
 				"bind": "/share/Container/sonarr/downloads"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6111,7 +6161,7 @@
 				"bind": "/share/Container/sqlitebrowser/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6218,7 +6268,7 @@
 				"bind": "/share/Container/swag/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6258,7 +6308,7 @@
 			"ports": [
 				"8088:8088/tcp"
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6309,7 +6359,7 @@
 				"bind": "/share/Container/syncthing/data2"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6358,7 +6408,7 @@
 				"bind": "/var/log"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6378,7 +6428,7 @@
 				"bind": "/var/run/docker.sock"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6418,7 +6468,7 @@
 				"bind": "/share/Container/tautulli/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6458,7 +6508,7 @@
 				"bind": "/share/Container/thelounge/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6538,7 +6588,7 @@
 				"bind": "/share/Container/transmission/watch"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6589,7 +6639,7 @@
 				"bind": "/share/Container/tvheadend/recordings"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6648,7 +6698,7 @@
 				"bind": "/share/Container/ubooquity/files"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6705,7 +6755,7 @@
 				"bind": "/share/Container/unifi-controller/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6746,7 +6796,7 @@
 				"bind": "/share/Container/webgrabplus/data"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6800,7 +6850,7 @@
 				"bind": "/var/run/docker.sock"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6844,7 +6894,7 @@
 				"bind": "/share/Container/wikijs/data"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6924,7 +6974,7 @@
 				"bind": "/lib/modules"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -6965,7 +7015,7 @@
 				"bind": "/share/Container/wireshark/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -7006,7 +7056,7 @@
 				"bind": "/share/Container/xbackbone/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -7046,7 +7096,7 @@
 				"bind": "/share/Container/yq/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		},
 		{
 			"type": 1,
@@ -7086,7 +7136,7 @@
 				"bind": "/share/Container/znc/config"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		}
 	]
 }

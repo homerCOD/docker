@@ -2872,6 +2872,56 @@
 			],
 			"restart_policy": "always"
 		},
+		
+		{
+			"type": 1,
+			"title": "jDownloader",
+			"name": "jDownloader",
+			"note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /share/Container/jellyfin/config<br>mkdir -p /share/Container/jellyfin/data/tvshows<br>mkdir -p /share/Container/jellyfin/data/movies</p>",
+			"description": "[jDownloader] menager za skidanje",
+			"platform": "linux",
+			"logo": "https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/banner-logo-solid.svg?sanitize=true",
+			"image": "jaymoulin/jdownloader:latest",
+			"env": [
+				{
+					"name": "PUID",
+					"label": "PUID",
+					"default": "1002",
+					"description": "for GroupID"
+				},
+				{
+					"name": "PGID",
+					"label": "PGID",
+					"default": "100",
+					"description": "for UserID"
+				},
+				{
+					"name": "TZ",
+					"label": "TZ",
+					"default": "Europe/Belgrade",
+					"description": "Specify a timezone to use for example Europe/Belgrade"
+				},
+							],
+			"ports": [
+				"3129:3129/tcp",
+							],
+			"volumes": [
+			{
+				"container": "/opt/JDownloader/app/cfg",
+				"bind": "/share/Container/jDownloader/config"
+			},
+			{
+				"container": "/opt/JDownloader/Downloads",
+				"bind": "/share/Downloads/jDownloader"
+			},
+			{
+				"container": "/opt/JDownloader/app/logs",
+				"bind": "/share/Container/jDownloader/logs"
+			}
+			],
+			"restart_policy": "always"
+		},
+		
 		{
 			"type": 1,
 			"title": "Jenkins-builder",

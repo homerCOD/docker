@@ -2902,7 +2902,8 @@
 				}
 			],
 			"ports": [
-				"3129:3129/tcp"			],
+				"3129:3129/tcp"	
+			],
 			"volumes": [
 			{
 				"container": "/opt/JDownloader/app/cfg",

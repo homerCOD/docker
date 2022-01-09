@@ -2872,7 +2872,6 @@
 			],
 			"restart_policy": "always"
 		},
-		
 		{
 			"type": 1,
 			"title": "jDownloader",
@@ -2921,7 +2920,6 @@
 			],
 			"restart_policy": "always"
 		},
-		
 		{
 			"type": 1,
 			"title": "Jenkins-builder",

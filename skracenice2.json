@@ -2914,8 +2914,8 @@
 		},
 		{
 			"type": 1,
-			"title": "Jenkins-builder",
-			"name": "Jenkins-builder",
+			"title": "Jenkins-builder2",
+			"name": "Jenkins-builder2",
 			"note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /share/Container/jenkins-builder/config</p>",
 			"description": "This container needs special attention. Please check https://hub.docker.com/r/linuxserver/jenkins-builder for details.",
 			"platform": "linux",

@@ -2914,6 +2914,46 @@
 		},
 		{
 			"type": 1,
+			"title": "Jenkins-builder",
+			"name": "Jenkins-builder",
+			"note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /share/Container/jenkins-builder/config</p>",
+			"description": "This container needs special attention. Please check https://hub.docker.com/r/linuxserver/jenkins-builder for details.",
+			"platform": "linux",
+			"logo": "",
+			"image": "linuxserver/jenkins-builder:latest",
+			"env": [
+				{
+					"name": "PUID",
+					"label": "PUID",
+					"default": "1002",
+					"description": "for GroupID"
+				},
+				{
+					"name": "PGID",
+					"label": "PGID",
+					"default": "100",
+					"description": "for UserID"
+				},
+				{
+					"name": "TZ",
+					"label": "TZ",
+					"default": "Europe/Belgrade",
+					"description": "Specify a timezone to use for example Europe/Belgrade"
+				}
+			],
+			"ports": [
+				"80:80/tcp"
+			],
+			"volumes": [
+			{
+				"container": "/config",
+				"bind": "/share/Container/jenkins-builder/config"
+			}
+			],
+			"restart_policy": "always"
+		},
+		{
+			"type": 1,
 			"title": "Kanzi",
 			"name": "Kanzi",
 			"note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /share/Container/kanzi/config</p>",
